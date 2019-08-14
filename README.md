@@ -12,11 +12,11 @@ What approach can "The farmer" company provide for their customers to enable dat
 
 ### Solution
 
-In this scenario where there is only query access to the database, and there are many clients who require reports and/or reports, we propose the implementation of the adapter mediator pattern.
+In this scenario where there is only query access to the database, and there are many clients who require reports, we propose the implementation of the Adapter Mediator Pattern.
 Where clients make their request to an API client, this API puts each request in a queue and then sends each request from the queue to the Adapter. This Adapter is the layer in charge of interpreting the request and making the request to the MySQL database. 
-This will allow scalability, because for each new requirement the necessary Adapters can be created. Helping in the communication between the Farmer System and its clients, without having to modify or alter the original System.
+This will allow scalability, because for each new requirement the necessary Adapters can be created. 
+Helping in the communication and integration between the Farmer System and its clients, without having to modify or alter the original System.
 
-Translated with www.DeepL.com/Translator
 
 ### Installation
 
