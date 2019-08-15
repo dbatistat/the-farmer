@@ -46,7 +46,7 @@ Please read for design implementation.
 ## Authors
 
 * **David Batista** - *Initial work* (https://github.com/dbatistat)
-* **Ruth Vargas** - *Initial work* (https://gist.github.com/vargasmruth)
+* **Ruth Vargas** - *Initial work* (https://github.com/vargasmruth)
 * **Brenda Lopez** - *Initial work* (https://github.com/blopezv)
 
 ## License
